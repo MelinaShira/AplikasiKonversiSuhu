@@ -66,7 +66,7 @@ public class BackgroundPanel extends JPanel {
     private void initComponents() {
 
         groupMode1 = new javax.swing.ButtonGroup();
-        jPanel1 = new BackgroundPanel();
+        MainPanel = new BackgroundPanel();
         judul = new javax.swing.JLabel();
         input = new javax.swing.JLabel();
         txtInput = new javax.swing.JTextField();
@@ -156,36 +156,36 @@ public class BackgroundPanel extends JPanel {
         lblHasil.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         lblHasil.setText("-");
 
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
+        javax.swing.GroupLayout MainPanelLayout = new javax.swing.GroupLayout(MainPanel);
+        MainPanel.setLayout(MainPanelLayout);
+        MainPanelLayout.setHorizontalGroup(
+            MainPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(MainPanelLayout.createSequentialGroup()
+                .addGroup(MainPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(MainPanelLayout.createSequentialGroup()
                         .addGap(80, 80, 80)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel1Layout.createSequentialGroup()
+                        .addGroup(MainPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, MainPanelLayout.createSequentialGroup()
                                 .addComponent(mode)
                                 .addGap(18, 18, 18)
                                 .addComponent(rbManual)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addComponent(rbOtomatis))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
+                            .addGroup(MainPanelLayout.createSequentialGroup()
                                 .addComponent(hasil)
                                 .addGap(18, 18, 18)
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addGroup(MainPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(MainPanelLayout.createSequentialGroup()
                                         .addGap(0, 0, Short.MAX_VALUE)
                                         .addComponent(btnKonversi))
                                     .addComponent(lblHasil, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel1Layout.createSequentialGroup()
+                            .addGroup(MainPanelLayout.createSequentialGroup()
+                                .addGroup(MainPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, MainPanelLayout.createSequentialGroup()
                                         .addComponent(input)
                                         .addGap(28, 28, 28)
                                         .addComponent(txtInput))
-                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel1Layout.createSequentialGroup()
+                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, MainPanelLayout.createSequentialGroup()
                                         .addComponent(asal)
                                         .addGap(18, 18, 18)
                                         .addComponent(cmbSkalaAsal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -193,35 +193,35 @@ public class BackgroundPanel extends JPanel {
                                         .addComponent(tujuan)))
                                 .addGap(18, 18, 18)
                                 .addComponent(cmbSkalaTujuan, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
+                    .addGroup(MainPanelLayout.createSequentialGroup()
                         .addGap(155, 155, 155)
                         .addComponent(judul)))
                 .addContainerGap(87, Short.MAX_VALUE))
         );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
+        MainPanelLayout.setVerticalGroup(
+            MainPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(MainPanelLayout.createSequentialGroup()
                 .addGap(17, 17, 17)
                 .addComponent(judul)
                 .addGap(33, 33, 33)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(MainPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(input)
                     .addComponent(txtInput, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(MainPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(asal)
                     .addComponent(tujuan)
                     .addComponent(cmbSkalaTujuan, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(cmbSkalaAsal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(MainPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(mode)
                     .addComponent(rbManual)
                     .addComponent(rbOtomatis))
                 .addGap(18, 18, 18)
                 .addComponent(btnKonversi)
                 .addGap(18, 18, 18)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(MainPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(hasil)
                     .addComponent(lblHasil))
                 .addContainerGap(23, Short.MAX_VALUE))
@@ -231,18 +231,18 @@ public class BackgroundPanel extends JPanel {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(MainPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(MainPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
     private void txtInputKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtInputKeyTyped
-        // TODO add your handling code here:
+        
         char c = evt.getKeyChar();
         if (!Character.isDigit(c) && c != KeyEvent.VK_BACK_SPACE && c != KeyEvent.VK_DELETE && c != '.') {
             evt.consume(); // menolak karakter selain angka dan titik desimal
@@ -250,7 +250,7 @@ public class BackgroundPanel extends JPanel {
     }//GEN-LAST:event_txtInputKeyTyped
 
     private void btnKonversiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnKonversiActionPerformed
-        // TODO add your handling code here:
+        
         try {
             double input = Double.parseDouble(txtInput.getText());
             String asal = cmbSkalaAsal.getSelectedItem().toString();
@@ -263,21 +263,21 @@ public class BackgroundPanel extends JPanel {
     }//GEN-LAST:event_btnKonversiActionPerformed
 
     private void txtInputKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtInputKeyReleased
-        // TODO add your handling code here:
+        
         if (rbOtomatis.isSelected()) {
             jalankanKonversi();
         }
     }//GEN-LAST:event_txtInputKeyReleased
 
     private void rbManualItemStateChanged(java.awt.event.ItemEvent evt) {//GEN-FIRST:event_rbManualItemStateChanged
-        // TODO add your handling code here:
+        
         if (rbManual.isSelected()) {
             btnKonversi.setEnabled(true); // aktifkan tombol
         }
     }//GEN-LAST:event_rbManualItemStateChanged
 
     private void rbOtomatisItemStateChanged(java.awt.event.ItemEvent evt) {//GEN-FIRST:event_rbOtomatisItemStateChanged
-        // TODO add your handling code here:
+        
         if (rbOtomatis.isSelected()) {
             btnKonversi.setEnabled(false); // nonaktifkan tombol
             // langsung jalankan konversi jika sudah ada input
@@ -292,14 +292,14 @@ public class BackgroundPanel extends JPanel {
     }//GEN-LAST:event_rbOtomatisItemStateChanged
 
     private void cmbSkalaAsalItemStateChanged(java.awt.event.ItemEvent evt) {//GEN-FIRST:event_cmbSkalaAsalItemStateChanged
-        // TODO add your handling code here:
+        
         if (rbOtomatis.isSelected()) {
             jalankanKonversi();
         }
     }//GEN-LAST:event_cmbSkalaAsalItemStateChanged
 
     private void cmbSkalaTujuanItemStateChanged(java.awt.event.ItemEvent evt) {//GEN-FIRST:event_cmbSkalaTujuanItemStateChanged
-        // TODO add your handling code here:
+        
         if (rbOtomatis.isSelected()) {
             jalankanKonversi();
         }
@@ -342,6 +342,7 @@ public class BackgroundPanel extends JPanel {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JPanel MainPanel;
     private javax.swing.JLabel asal;
     private javax.swing.JButton btnKonversi;
     private javax.swing.JComboBox<String> cmbSkalaAsal;
@@ -349,7 +350,6 @@ public class BackgroundPanel extends JPanel {
     private javax.swing.ButtonGroup groupMode1;
     private javax.swing.JLabel hasil;
     private javax.swing.JLabel input;
-    private javax.swing.JPanel jPanel1;
     private javax.swing.JLabel judul;
     private javax.swing.JLabel lblHasil;
     private javax.swing.JLabel mode;
